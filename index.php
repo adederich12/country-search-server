@@ -15,5 +15,6 @@
         $output['data'] = $e;
     }
 
+    header('Access-Control-Allow-Origin: *');
     die(json_encode($output));
 ?>
